@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useMoralis } from "react-moralis";
 import styles from "../styles/Home.module.css";
-import Logo from "../Assets/MoralisLogo.png";
+//import Logo from "../Assets/MoralisLogo.png";
 import { useState } from "react";
 
 export default function SignIn() {
@@ -21,7 +21,7 @@ export default function SignIn() {
 
   return (
     <div className={styles.card}>
-      <Image className={styles.img} src={Logo} width={80} height={80} />
+      {/* <Image className={styles.img} src={Logo} width={80} height={80} /> */}
       {isAuthenticating && <p className={styles.green}>Authenticating</p>}
       {authError && (
         <p className={styles.error}>{JSON.stringify(authError.message)}</p>

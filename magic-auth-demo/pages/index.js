@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useMoralis, useWeb3Transfer } from "react-moralis";
 import styles from "../styles/Home.module.css";
-import Logo from "../Assets/MoralisLogo.png";
+//import Logo from "../Assets/MoralisLogo.png";
 import { useEffect, useState } from "react";
 import SignIn from "../Components/SignIn";
 import { SignOut } from "../Components/SignOut";
